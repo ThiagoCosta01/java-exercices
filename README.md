@@ -582,10 +582,33 @@ After completion, rebuild the same project using **Spring Boot**.
 - Java 21 (LTS)
 - Maven
 - JUnit 5
+- Gradle
 - Mockito
 - JDBC
 - Git
 - GitHub
+- Spring Boot
+- Hibernate
+- JPA (Jakarta Persistence)
+- Flyway
+- Swagger / OpenAPI
+- Postman
+- h2
+- SQLite
+- RabbitMQ
+- Apache Kafka
+- Redis
+- Docker
+- GitHub Actions
+- Logback
+- SLF4J
+- Micrometer
+- Prometheus
+- Grafana
+- Checkstyle
+- Jackson
+- Java HttpClient
+- Records
 
 ---
 
