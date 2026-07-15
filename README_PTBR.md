@@ -20,7 +20,6 @@ O objetivo deste projeto é consolidar conhecimento através de **exercícios**,
 
 Cada etapa do estudo possui sua própria branch contendo:
 
-- explicações e anotações;
 - exercícios resolvidos;
 - pequenos projetos;
 - commits documentando a evolução.
