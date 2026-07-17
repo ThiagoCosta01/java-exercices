@@ -1,0 +1,15 @@
+	try {
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/coursejdbc", "root", "root");
+			ps = conn.prepareStatement(
+					"INSERT INTO user"
+					+ "(iduser, usercol, age)"
+					+ "VALUES"
+					+ "(?,?,?)"
+					);
+			ps.setInt(1, 3);
+			ps.setString(2, "Maria");
+			ps.setInt(3, 20);
+			
+			int rowsAffected = ps.executeUpdate();
+			
+			System.out.println("Rows Affected: "+rowsAffected);
